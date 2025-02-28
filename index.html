@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusStore - Your College Stationery Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CampusStore</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for stationery...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to CampusStore</h1>
+            <p>Your one-stop shop for college stationery</p>
+            <a href="#featured" class="cta-button">Shop Now</a>
+        </section>
+
+        <section id="featured" class="featured">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card" data-category="notebooks">
+                    <i class="fas fa-book"></i>
+                    <h3>Notebooks</h3>
+                </div>
+                <div class="category-card" data-category="pens">
+                    <i class="fas fa-pen"></i>
+                    <h3>Pens</h3>
+                </div>
+                <div class="category-card" data-category="backpacks">
+                    <i class="fas fa-backpack"></i>
+                    <h3>Backpacks</h3>
+                </div>
+                <div class="category-card" data-category="electronics">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Electronics</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About CampusStore</h3>
+                <p>CampusStore is your go-to marketplace for college stationery. Buy and sell with ease!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CampusStore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
